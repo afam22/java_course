@@ -14,6 +14,7 @@ public class SalaryCalculator {
         double bonus = 250;
         int salesQuota = 10;
 
+
         // get values for the unknown
         System.out.println("How many sales did the employee make this week?");
         Scanner scanner = new Scanner(System.in);
