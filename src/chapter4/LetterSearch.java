@@ -31,6 +31,21 @@ public class LetterSearch {
         }else {
             System.out.println("This text does not contain the letter 'A'");
         }
+
+
+
+        /*for(int i = text.length(); i<0; i--){
+            char currentLetter = text.charAt(i);
+            if(currentLetter == 'A' || currentLetter == 'a'){
+                letterFound = true;
+                break;
+            }
+        }
+        if (letterFound){
+            System.out.println("This text contains the letter A");
+        }else {
+            System.out.println("This text does not contain the letter 'A'");
+        }*/
     }
 }
 
