@@ -29,4 +29,12 @@ public class Rectangle {
     public double getWidth() {
         return width;
     }
+
+    public double calculateArea(){
+        return length * width;
+    }
+
+    public double calculatePerimeter(){
+        return (2 * length) + (2 * width);
+    }
 }
