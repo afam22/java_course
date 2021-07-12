@@ -9,7 +9,7 @@ public class LotteryTicket {
 
     public static void main(String[] args){
 
-        int[] ticket = generateNumbers();
+       int[] ticket = generateNumbers();
         printTicket(ticket);
     }
 
